@@ -23,7 +23,7 @@ function draw(){
 
         for(i=0; i<object1.length; i++){
            document.getElementById("status").innerHTML="Status- Object Detected";
-           document.getElementById("number_of_objects").innerHTML="Number of Objects detected- ";
+           document.getElementById("number_of_objects").innerHTML="Number of Objects detected- " + object1.length;
 
            fill(r,g,b);
            percent=floor(object1[i].confidence * 100);
